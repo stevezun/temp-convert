@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="steve"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-14 01:56:31 PM"/>
+        <attribute name="created" value="c3RldmU7TEFQVE9QLUFTREYwNlYzOzIwMjAtMDEtMTQ7MDE6MDg6NTAgUE07Mjg1Mw=="/>
+        <attribute name="edited" value="c3RldmU7TEFQVE9QLUFTREYwNlYzOzIwMjAtMDEtMTQ7MDE6NTY6MzEgUE07MTsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Please enter a temperature in degrees Celsius.&quot;" newline="True"/>
+            <declare name="degreesCelsius" type="Real" array="False" size=""/>
+            <input variable="degreesCelsius"/>
+            <declare name="degreesFahrenheit" type="Real" array="False" size=""/>
+            <assign variable="degreesFahrenheit" expression="9 * degreesCelsius / 5 + 32"/>
+            <output expression="&quot;Temperature in degrees Fahrenheit = &quot;" newline="False"/>
+            <output expression="degreesFahrenheit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
